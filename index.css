@@ -166,6 +166,35 @@ font-weight: lighter;
     border-radius: 50%;
 }
 
+/* sec-3 */
+
+.sec-3{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 101px;
+    justify-content: space-between;
+    background-color: #b9b9b924;
+    border-radius: 20px;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.extra-mile h1{
+    font-size: 48px;
+}
+
+.extra-mile button{
+    padding: 16px 40px;
+}
+
+.run img{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 20px;
+
+}
+
 
 
 
@@ -201,5 +230,10 @@ font-weight: lighter;
     .others{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .sec-3{
+        flex-direction: column;
+    }
+    .run img{
+        margin-top: 30px;
+    }
 }
