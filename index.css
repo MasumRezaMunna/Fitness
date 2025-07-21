@@ -1,0 +1,125 @@
+/* shared */
+.color{
+    color: #E6533C;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-white{
+    color: white;
+}
+.bg-color{
+    background-color: #E6533C;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+}
+.bg-color-black{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.size{
+    padding: 16px 40px;
+    font-size: 16px;
+}
+
+.bg-blur{
+    background-color: rgba(48, 48, 48, 0.54);
+}
+
+.flex{
+    display: flex;
+}
+
+/* nav */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 57px 190px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 3rem;
+    font-size: 18px;
+    
+}
+.logo h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* main part */
+ /* section-1 */
+
+ .sec-1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+ }
+
+.body-shape{
+    font-size: 78px;
+    font-family: "inter";
+    max-width: 520px;
+    max-height: 281px;
+}
+.shape{
+font-family: "Dancing Script", cursive;
+font-weight: lighter;
+
+}
+
+.sec-1 p{
+    max-width: 520px;
+    max-height: 48px;
+}
+
+.flex .circle{
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mother{
+    gap: 52px;
+}
+
+.video-tutorial{
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    stroke: rgba(255, 255, 255, 0.1);
+    
+}
+
+.free-workout{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    stroke: rgba(255, 255, 255, 0.1);
+    
+}
+/* section-2 */
+
+
