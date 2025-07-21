@@ -108,7 +108,13 @@ font-weight: lighter;
     border-radius: 5px;
     padding: 20px;
     stroke: rgba(255, 255, 255, 0.1);
+    margin-top: -190px;
+    margin-bottom: 250px;
+    margin-left: -100px;
     
+}
+.video-tutorial strong{
+    font-size: 24px;
 }
 
 .free-workout{
@@ -118,8 +124,35 @@ font-weight: lighter;
     border-radius: 5px;
     padding: 20px;
     stroke: rgba(255, 255, 255, 0.1);
+    margin-top: -450px;
+    margin-bottom: 500px;
+    margin-left: 80px;
     
+}
+.free-workout strong{
+    font-size: 40px;
 }
 /* section-2 */
 
 
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction:column;
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .sec-1{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .advice{
+        margin-top: 240px;
+    }
+    .button{
+        display: flex;
+        gap: 15px;
+        margin-top: 50px;
+    }
+    
+}
