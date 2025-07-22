@@ -195,10 +195,47 @@ font-weight: lighter;
 
 }
 
+/* section four start */
 
+.sec-4{
+    width: 85%;
+    margin: 0 auto;
+    top: 50px;
+}
 
+.exercises img{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.img-1{
+    max-width: 323px;
+    height: 280px;
+}
+.img-2{
+    max-width: 539px;
+    height: 280px;
+}
+.img-3{
+    max-width: 388px;
+    height: 280px;
+}
 
+.img-4{
+    max-width: 435px;
+    height: 280px;
+}
+
+.img-5{
+    max-width: 408px;
+    height: 280px;
+}
+
+.img-6{
+    max-width: 405px;
+    height: 280px;
+}
 
 
 
@@ -235,5 +272,11 @@ font-weight: lighter;
     }
     .run img{
         margin-top: 30px;
+    }
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+        width: 80%;
+    }
+    .sec-4{
+        width: 100%;
     }
 }
