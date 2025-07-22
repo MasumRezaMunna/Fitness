@@ -237,6 +237,25 @@ font-weight: lighter;
     height: 280px;
 }
 
+/* section five start */
+
+.sec-5{
+    padding: 88px 384.5px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -278,5 +297,9 @@ font-weight: lighter;
     }
     .sec-4{
         width: 100%;
+    }
+    .sec-5{
+        padding: 0;
+        margin-top: 50px;
     }
 }
