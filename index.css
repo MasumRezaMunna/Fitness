@@ -13,14 +13,14 @@
     background-color: #E6533C;
     color: white;
     padding:10px;
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
 }
 .bg-color-black{
     background-color: black;
     color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px solid white;
 }
 
@@ -260,6 +260,7 @@ table,td,th,tr{
     padding: 50px 250px;
     display: flex;
     gap: 200px;
+    justify-content: space-between;
 }
 .calculate h1{
     font-size: 28px;
@@ -280,6 +281,13 @@ table,td,th,tr{
 }
 .calculate form button{
     padding: 15px 45px;
+    margin-top: 20px;
+}
+.activity-input{
+    margin-top: -15px;
+}
+.calculate .activity-input{
+    width: 88%;
 }
 
 
@@ -332,5 +340,39 @@ table,td,th,tr{
     .sec-5{
         padding: 0;
         margin-top: 50px;
+    }
+    .sec-6{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+    }
+    .chart h1{
+        margin-left:20px;
+    }
+    .bmi-table{
+        margin-left: 20px;
+    }
+    table,td,th,tr{
+        padding: 20px 30px;
+    }
+    .calculate{
+        margin-top: -180px;
+        padding: 42px 20px;
+    }
+    .calculate p{
+        width: 70%;
+    }
+    .calculate form .form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .calculate form input{
+        width: 130px;
+    }
+    .activity-input {
+        margin-top: -20px;
+        
+    }
+    .activity-factor input{
+        width: 400px;
     }
 }
