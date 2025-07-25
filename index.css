@@ -420,4 +420,22 @@ table,td,th,tr{
     .activity-factor input{
         width: 400px;
     }
+    .sec-7{
+        padding: 0;
+    }
+    .trainers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sec-7-headings h1{
+        font-size: 32px;
+        margin-top: 66px;
+    }
+
+
+
+
+
+
+
+
 }
