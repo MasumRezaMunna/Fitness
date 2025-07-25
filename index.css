@@ -338,9 +338,17 @@ table,td,th,tr{
     left: 30px;
 }
 
+/* footer start */
+.footer-logo{
+    display: flex;
+    padding: 66px 190px;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
-
+.reserved{
+    text-align: center;
+}
 
 
 
@@ -430,7 +438,6 @@ table,td,th,tr{
         font-size: 32px;
         margin-top: 66px;
     }
-
 
 
 
