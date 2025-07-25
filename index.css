@@ -439,7 +439,10 @@ table,td,th,tr{
         margin-top: 66px;
     }
 
-
+    .footer-logo{
+        padding: 0;
+        flex-direction: column;
+    }
 
 
 
